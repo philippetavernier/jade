@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Re BOot ----</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="A preview of the jQuery UI Bootstrap theme">
+            <meta name="author" content="Addy Osmani">
+
+            <!-- Le styles -->
+            <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+            <link type="text/css" href="css/custom-theme/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+            <link type="text/css" href="assets/css/font-awesome.min.css" rel="stylesheet" />
+            <!--[if IE 7]>
+            <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+            <![endif]-->
+            <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/custom-theme/jquery.ui.1.10.0.ie.css"/>
+            <![endif]-->
+            <link href="assets/css/docs.css" rel="stylesheet">
+            <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+            <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+            <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+
+            <!-- Le fav and touch icons -->
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+            <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+        </head>
+
+        <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+
+        <!-- Navbar
+        ================================================== -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="./index.html">Re BOoT ----</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="./extra.html">Extra</a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/addyosmani/jquery-ui-bootstrap/issues">Feedback/Issues</a>
+                            </li>
+                            <li>
+                                <a href="http://twitter.com/addyosmani">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Subhead
+        ================================================== -->
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1>Re BOoT ----</h1>
+                <p class="lead">Arduino control based on Bootstrap-themed kickstart for jQuery UI widgets</p>
+            </div>
+        </header>
+
+
+        <div class="container">
+        <!-- Docs nav ================================================== -->
+        <div class="row">
+        <div class="span3 bs-docs-sidebar">
+            <ul class="nav nav-list bs-docs-sidenav">
+                <li><a href="#about"><i class="icon-book"></i> About</a></li>
+                <li><a href="#slider"><i class="icon-repeat"></i> Slider</a></li>
+            </ul>
+        </div>
+        <div class="span9">
+            <div class="alert alert-info">
+                <span class="icon-info-sign"></span> This is under dev!!!!
+            </div>
+
+            <!-- About -->
+            <section id="about">
+                <div class="page-header">
+                    <h1>About</h1>
+                </div>
+                <div class="row-fluid">
+                    <div class="span6">
+                        !Purpose : arduino control over the Interweb!
+                    </div>
+                </div>
+            </section>
+            <!-- End About -->
+            <!-- Tabs -->
+            <!-- End tabs -->
+            <!-- Highlight / Error -->
+            <!--end highlights-->
+            <!-- Datepicker -->
+            <!--end datepicker-->
+            <!-- Slider -->
+            <section id="slider">
+                <div class="page-header">
+                    <h1>Slider</h1>
+                </div>
+                <h2>Horizontal Slider</h2>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <div id="h-slider1"></div>
+                    </div>
+                    <div class="span6">
+                        <label for="value_h-slider1">h1:
+                        <input type="text" id="value_h-slider1" style="width:50px;height:10px" /></label>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <div id="h-slider2"></div>
+                    </div>
+                    <div class="span6">
+                        <label for="value_h-slider2">h2:
+                        <input type="text" id="value_h-slider2" style="width:50px;height:10px" /></label>
+                    </div>
+                </div>
+
+                <h2>Vertical Slider</h2>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+                        <span class="ui-icon ui-icon-volume-on" style="float:left; margin:-2px 5px 0 0;"></span>
+                        Master volume
+                        </p>
+                        <p>
+                          <label for="amount">Volume:</label>
+                          <input type="text" id="amount" />
+                        </p>
+                    </div>
+                    <div class="span6">
+                        <div id="v-slider" style="height:200px;"></div>
+                    </div>
+                </div>
+            </section>
+            <!--end slider-->
+        </div>
+    </div>
+</div>
+
+<!-- Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <p>
+            jQuery UI Bootstrap &copy; Addy Osmani 2012 - 2013.
+        </p>
+        <p>
+            Twitter Bootstrap &copy; Twitter 2012 - 2013
+        </p>
+        <ul class="footer-links">
+            <li><a href="http://addyosmani.com/blog/">Blog</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="https://github.com/addyosmani/jquery-ui-bootstrap/issues?state=open">Issues</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+<script src="assets/js/docs.js" type="text/javascript"></script>
+<script src="assets/js/demo.js" type="text/javascript"></script>
+</body>
+</html>
